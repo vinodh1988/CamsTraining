@@ -1,0 +1,22 @@
+html
+    link(rel="stylesheet",href="../bootstrap/dist/css/bootstrap.min.css")
+    script(src="../jquery/dist/jquery.min.js")
+    script(src="../bootstrap/dist/js/bootstrap.min.js")
+    head
+        title  People
+    body
+        h1.alert.alert-info Pug is rendering.!!!!
+    table.table.table-dark   
+        thead
+            th Sno
+            th name
+            th city
+        tbody
+            each x in people
+                tr
+                    td= x.sno
+                    td= x.name
+                    td= x.city
+
+
+        

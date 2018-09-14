@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Express APP</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="bootstrap/dist/css/bootstrap.min.css"
+         rel="stylesheet">
+         <script src="jquery/dist/jquery.min.js"></script>
+         <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <form action="store" method="post">
+        <table>
+           <tr>
+               <th>sno</th>
+               <td><input type="number" name="sno" required></td>
+           </tr>
+           <tr>
+                <th>name</th>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td><input type="text" name="city" required></td>
+            </tr>
+            <tr>
+                    
+                    <td colspan=2 align="center">
+                    <input type="submit" 
+                    value="Store"></td>
+            </tr>
+        </table>
+    </form>
+        </div>
+        <a href="reports/people">Show people</a>
+        <a href="http://localhost:4003/dummy">Dummy route</a>
+    </body>
+</html>
